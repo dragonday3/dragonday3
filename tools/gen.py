@@ -3,7 +3,7 @@
 
 One Kali Linux terminal running tmux, five panes:
   0 neofetch   skull logo + profile
-  1 nmap       Kairu's repos shown as open services
+  1 nmap       Kairavi's repos shown as open services
   2 redops     kill chain, animated sweep
   3 grc        5x5 likelihood x impact risk matrix + frameworks
   4 git log    live recent commits (tools/recent_commits.json, written by the Action) + cert roadmap
@@ -52,7 +52,7 @@ def T(x, y, spans, size=FS, anim=True, weight=None, anchor=None):
 def prompt(x, y, path, cmd):
     """Kali root-style zsh prompt: blue frame, red user@host."""
     return [
-        T(x, y, [("┌──(", "blue"), ("kairu㉿kali", "red"), (")-[", "blue"), (path, "text"), ("]", "blue")], weight="bold"),
+        T(x, y, [("┌──(", "blue"), ("kairavi㉿kali", "red"), (")-[", "blue"), (path, "text"), ("]", "blue")], weight="bold"),
         T(x, y + LH, [("└─", "blue"), ("$ ", "red"), (cmd, "text")]),
     ]
 
@@ -83,7 +83,7 @@ def pane_neofetch(x, y):
         "     |_|_|_|     ",
     ]
     info = [
-        [("kairu", "red"), ("@", "text"), ("kali", "red")],
+        [("kairavi", "red"), ("@", "text"), ("kali", "red")],
         [("─" * 16, "dim")],
         [("name      ", "blue"), ("Kairavi Shah", "text")],
         [("role      ", "blue"), ("Red Team · GRC", "text")],
@@ -232,12 +232,12 @@ def build():
     ]
     title = [
         f'<rect width="{W}" height="{TOP}" fill="{C["bar"]}"/>',
-        T(W / 2, 22, [("kairu@kali: ~/recon", "text")], anim=False, anchor="middle"),
+        T(W / 2, 22, [("kairavi@kali: ~/recon", "text")], anim=False, anchor="middle"),
         T(16, 22, [("▣ ", "blue"), ("File  Actions  Edit  View  Help", "dim")], size=12, anim=False),
     ] + [f'<circle cx="{W - 20 - i * 22}" cy="17" r="6" fill="{C[k]}"/>' for i, k in enumerate(["red", "yellow", "green"])]
     status = [
         f'<rect y="{bot}" width="{W}" height="{STATUS}" fill="{C["tmux"]}"/>',
-        T(10, bot + 18, [("[kairu] 0:neofetch  1:nmap*  2:redops  3:grc  4:git", "#0b0f17")], anim=False, weight="bold"),
+        T(10, bot + 18, [("[kairavi] 0:neofetch  1:nmap*  2:redops  3:grc  4:git", "#0b0f17")], anim=False, weight="bold"),
         T(W - 10, bot + 18, [('"kali" · the quieter you become, the more you are able to hear', "#0b0f17")],
           anim=False, anchor="end"),
     ]
@@ -262,7 +262,7 @@ text{{font-family:{FONT};}}
 
 if __name__ == "__main__":
     svg = build()
-    assert svg.count("<text") > 60 and "kairu㉿kali" in svg
+    assert svg.count("<text") > 60 and "kairavi㉿kali" in svg
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(svg)

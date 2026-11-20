@@ -12,7 +12,7 @@ text{font-family:'JetBrains Mono','Fira Code','Cascadia Code','DejaVu Sans Mono'
 </style>
 <rect width="1200" height="780" rx="10" fill="#0b0f17" stroke="#263042"/>
 <rect width="1200" height="34" fill="#151b26"/>
-<text x="600.0" y="22.0" font-size="13" text-anchor="middle" xml:space="preserve"><tspan fill="#d0d7e2">kairu@kali: ~/recon</tspan></text>
+<text x="600.0" y="22.0" font-size="13" text-anchor="middle" xml:space="preserve"><tspan fill="#d0d7e2">kairavi@kali: ~/recon</tspan></text>
 <text x="16.0" y="22.0" font-size="12" xml:space="preserve"><tspan fill="#367bf0">▣ </tspan><tspan fill="#6b7a90">File  Actions  Edit  View  Help</tspan></text>
 <circle cx="1180" cy="17" r="6" fill="#ff4757"/>
 <circle cx="1158" cy="17" r="6" fill="#ffd32a"/>
@@ -21,7 +21,7 @@ text{font-family:'JetBrains Mono','Fira Code','Cascadia Code','DejaVu Sans Mono'
 <line x1="0" y1="380" x2="1200" y2="380" stroke="#263042"/>
 <line x1="400" y1="380" x2="400" y2="754" stroke="#263042"/>
 <line x1="800" y1="380" x2="800" y2="754" stroke="#263042"/>
-<text x="14.0" y="60.0" font-size="13" font-weight="bold" class="l" style="animation-delay:0.12s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairu㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~</tspan><tspan fill="#367bf0">]</tspan></text>
+<text x="14.0" y="60.0" font-size="13" font-weight="bold" class="l" style="animation-delay:0.12s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~</tspan><tspan fill="#367bf0">]</tspan></text>
 <text x="14.0" y="78.0" font-size="13" class="l" style="animation-delay:0.24s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">neofetch</tspan></text>
 <text x="14.0" y="110.0" font-size="13" class="l" style="animation-delay:0.36s" xml:space="preserve"><tspan fill="#ff4757">     _______     </tspan></text>
 <text x="14.0" y="128.0" font-size="13" class="l" style="animation-delay:0.48s" xml:space="preserve"><tspan fill="#ff4757">  .-&#x27;       &#x27;-.  </tspan></text>
@@ -31,7 +31,7 @@ text{font-family:'JetBrains Mono','Fira Code','Cascadia Code','DejaVu Sans Mono'
 <text x="14.0" y="200.0" font-size="13" class="l" style="animation-delay:0.96s" xml:space="preserve"><tspan fill="#ff4757"> \    &#x27;---&#x27;    / </tspan></text>
 <text x="14.0" y="218.0" font-size="13" class="l" style="animation-delay:1.08s" xml:space="preserve"><tspan fill="#ff4757">  &#x27;-._|||||_.-&#x27;  </tspan></text>
 <text x="14.0" y="236.0" font-size="13" class="l" style="animation-delay:1.20s" xml:space="preserve"><tspan fill="#ff4757">     |_|_|_|     </tspan></text>
-<text x="162.2" y="110.0" font-size="13" class="l" style="animation-delay:1.32s" xml:space="preserve"><tspan fill="#ff4757">kairu</tspan><tspan fill="#d0d7e2">@</tspan><tspan fill="#ff4757">kali</tspan></text>
+<text x="162.2" y="110.0" font-size="13" class="l" style="animation-delay:1.32s" xml:space="preserve"><tspan fill="#ff4757">kairavi</tspan><tspan fill="#d0d7e2">@</tspan><tspan fill="#ff4757">kali</tspan></text>
 <text x="162.2" y="128.0" font-size="13" class="l" style="animation-delay:1.44s" xml:space="preserve"><tspan fill="#6b7a90">────────────────</tspan></text>
 <text x="162.2" y="146.0" font-size="13" class="l" style="animation-delay:1.56s" xml:space="preserve"><tspan fill="#367bf0">name      </tspan><tspan fill="#d0d7e2">Kairavi Shah</tspan></text>
 <text x="162.2" y="164.0" font-size="13" class="l" style="animation-delay:1.68s" xml:space="preserve"><tspan fill="#367bf0">role      </tspan><tspan fill="#d0d7e2">Red Team · GRC</tspan></text>
@@ -49,7 +49,7 @@ text{font-family:'JetBrains Mono','Fira Code','Cascadia Code','DejaVu Sans Mono'
 <rect x="272.2" y="296.0" width="20" height="12" fill="#c56cf0" stroke="#263042"/>
 <rect x="294.2" y="296.0" width="20" height="12" fill="#22c7d6" stroke="#263042"/>
 <rect x="316.2" y="296.0" width="20" height="12" fill="#d0d7e2" stroke="#263042"/>
-<text x="484.0" y="60.0" font-size="13" font-weight="bold" class="l" style="animation-delay:2.52s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairu㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~/recon</tspan><tspan fill="#367bf0">]</tspan></text>
+<text x="484.0" y="60.0" font-size="13" font-weight="bold" class="l" style="animation-delay:2.52s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~/recon</tspan><tspan fill="#367bf0">]</tspan></text>
 <text x="484.0" y="78.0" font-size="13" class="l" style="animation-delay:2.64s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">nmap -sV --script=vuln github.com/dragonday3</tspan></text>
 <text x="484.0" y="106.0" font-size="13" class="l" style="animation-delay:2.76s" xml:space="preserve"><tspan fill="#6b7a90">Starting Nmap 7.95 ( https://nmap.org )</tspan></text>
 <text x="484.0" y="124.0" font-size="13" class="l" style="animation-delay:2.88s" xml:space="preserve"><tspan fill="#d0d7e2">Nmap scan report for </tspan><tspan fill="#22c7d6">github.com/dragonday3</tspan></text>
@@ -64,7 +64,7 @@ text{font-family:'JetBrains Mono','Fira Code','Cascadia Code','DejaVu Sans Mono'
 <text x="484.0" y="304.0" font-size="13" class="l" style="animation-delay:3.96s" xml:space="preserve"><tspan fill="#6b7a90">| vulners: </tspan><tspan fill="#c56cf0">built from scratch in python — no black-box wrappers</tspan></text>
 <text x="484.0" y="322.0" font-size="13" class="l" style="animation-delay:4.08s" xml:space="preserve"><tspan fill="#6b7a90">|_ </tspan><tspan fill="#c56cf0">understand the attack before you automate it.</tspan></text>
 <text x="484.0" y="349.0" font-size="13" class="l" style="animation-delay:4.20s" xml:space="preserve"><tspan fill="#d0d7e2">Nmap done: </tspan><tspan fill="#2ed573">6 services up</tspan><tspan fill="#d0d7e2"> · scanned in 0.42 seconds</tspan></text>
-<text x="14.0" y="406.0" font-size="13" font-weight="bold" class="l" style="animation-delay:4.32s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairu㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~/redops</tspan><tspan fill="#367bf0">]</tspan></text>
+<text x="14.0" y="406.0" font-size="13" font-weight="bold" class="l" style="animation-delay:4.32s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~/redops</tspan><tspan fill="#367bf0">]</tspan></text>
 <text x="14.0" y="424.0" font-size="13" class="l" style="animation-delay:4.44s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">redops chain --mode=assume-breach</tspan></text>
 <rect x="14.0" y="454.0" width="376.0" height="24" rx="3" fill="none" stroke="#263042"/>
 <text x="22.0" y="470.0" font-size="13" xml:space="preserve"><tspan fill="#6b7a90">1. </tspan><tspan fill="#ff4757">recon     </tspan><tspan fill="#d0d7e2">what can an attacker see?</tspan></text>
@@ -82,7 +82,7 @@ text{font-family:'JetBrains Mono','Fira Code','Cascadia Code','DejaVu Sans Mono'
 <text x="22.0" y="650.0" font-size="13" xml:space="preserve"><tspan fill="#6b7a90">7. </tspan><tspan fill="#ff4757">exfil     </tspan><tspan fill="#d0d7e2">what leaves the network?</tspan></text>
 <rect class="sweep" x="14.0" y="454.0" width="376.0" height="24" rx="3" fill="#ff4757" fill-opacity="0.16" stroke="#ff4757"/>
 <text x="14.0" y="678.0" font-size="13" class="l" style="animation-delay:4.56s" xml:space="preserve"><tspan fill="#2ed573">[+] </tspan><tspan fill="#d0d7e2">build the chain. then break every link.</tspan></text>
-<text x="414.0" y="406.0" font-size="13" font-weight="bold" class="l" style="animation-delay:4.68s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairu㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~/grc</tspan><tspan fill="#367bf0">]</tspan></text>
+<text x="414.0" y="406.0" font-size="13" font-weight="bold" class="l" style="animation-delay:4.68s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~/grc</tspan><tspan fill="#367bf0">]</tspan></text>
 <text x="414.0" y="424.0" font-size="13" class="l" style="animation-delay:4.80s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">grc risk --matrix --framework nist-csf</tspan></text>
 <text x="420.0" y="474.0" font-size="13" xml:space="preserve"><tspan fill="#6b7a90">5</tspan></text>
 <rect x="438.0" y="454.0" width="26" height="26" rx="3" fill="#ffd32a" fill-opacity="0.55"/>
@@ -123,7 +123,7 @@ text{font-family:'JetBrains Mono','Fira Code','Cascadia Code','DejaVu Sans Mono'
 <text x="597.0" y="572.0" font-size="12" class="l" style="animation-delay:5.40s" xml:space="preserve"><tspan fill="#367bf0">OWASP </tspan><tspan fill="#d0d7e2">Top10 · API</tspan></text>
 <text x="414.0" y="635.0" font-size="12" class="l" style="animation-delay:5.52s" xml:space="preserve"><tspan fill="#ffd32a">risk = threat × vuln × impact</tspan></text>
 <text x="414.0" y="653.0" font-size="12" class="l" style="animation-delay:5.64s" xml:space="preserve"><tspan fill="#2ed573">[+] </tspan><tspan fill="#d0d7e2">governance turns process into accountability</tspan></text>
-<text x="814.0" y="406.0" font-size="13" font-weight="bold" class="l" style="animation-delay:5.76s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairu㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~</tspan><tspan fill="#367bf0">]</tspan></text>
+<text x="814.0" y="406.0" font-size="13" font-weight="bold" class="l" style="animation-delay:5.76s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~</tspan><tspan fill="#367bf0">]</tspan></text>
 <text x="814.0" y="424.0" font-size="13" class="l" style="animation-delay:5.88s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">git log --all --oneline -5</tspan></text>
 <text x="814.0" y="452.0" font-size="13" class="l" style="animation-delay:6.00s" xml:space="preserve"><tspan fill="#ffd32a">bb6dd72</tspan><tspan fill="#6b7a90"> 2026-11-12</tspan><tspan fill="#22c7d6"> (vulnerablescanner)</tspan></text>
 <text x="829.6" y="470.0" font-size="13" class="l" style="animation-delay:6.12s" xml:space="preserve"><tspan fill="#d0d7e2">fix: give the report page an inline explana…</tspan></text>
@@ -143,6 +143,6 @@ text{font-family:'JetBrains Mono','Fira Code','Cascadia Code','DejaVu Sans Mono'
 <text x="814.0" y="724.0" font-size="13" class="l" style="animation-delay:7.80s" xml:space="preserve"><tspan fill="#ff4757">$ </tspan></text>
 <rect class="cur" x="829.6" y="712.0" width="7.8" height="15" fill="#d0d7e2"/>
 <rect y="754" width="1200" height="26" fill="#2ed573"/>
-<text x="10.0" y="772.0" font-size="13" font-weight="bold" xml:space="preserve"><tspan fill="#0b0f17">[kairu] 0:neofetch  1:nmap*  2:redops  3:grc  4:git</tspan></text>
+<text x="10.0" y="772.0" font-size="13" font-weight="bold" xml:space="preserve"><tspan fill="#0b0f17">[kairavi] 0:neofetch  1:nmap*  2:redops  3:grc  4:git</tspan></text>
 <text x="1190.0" y="772.0" font-size="13" text-anchor="end" xml:space="preserve"><tspan fill="#0b0f17">&quot;kali&quot; · the quieter you become, the more you are able to hear</tspan></text>
 </svg>
