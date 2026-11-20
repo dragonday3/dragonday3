@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="assets/terminal.svg?v=2" width="100%" alt="Kairavi Shah — Kali tmux terminal: neofetch profile, nmap scan listing reconmap, apifuzz, vulnsight, redops, credchain and stego as open services, red team kill chain, GRC risk matrix with NIST/ISO 27001/CIS/ATT&CK/OWASP, and live recent commits"/>
+<img src="assets/terminal.svg?v=1795202886" width="100%" alt="Kairavi Shah — Kali tmux terminal: neofetch profile, nmap scan listing reconmap, apifuzz, vulnsight, redops, credchain and stego as open services, red team kill chain, GRC risk matrix with NIST/ISO 27001/CIS/ATT&CK/OWASP, and live recent commits"/>
 
 <sub>red team · grc · python security tooling — live commits refresh every 6h</sub>
 
