@@ -7,11 +7,12 @@ One Kali Linux terminal running tmux, five panes:
   2 redops     kill chain, animated sweep
   3 grc        5x5 likelihood x impact risk matrix + frameworks
   4 git log    live recent commits (tools/recent_commits.json, written by the Action) + cert roadmap
+  5 geo        orbit animation + gdalinfo-style scene + NDVI raster with a satellite scan pass
 
 Self-contained SVG, stdlib only. CSS animations play inside GitHub's image proxy.
 Run:  py -3.10 tools/gen.py
 """
-import os, html, json
+import os, html, json, math
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "assets", "terminal.svg")
@@ -24,9 +25,10 @@ C = dict(
 FONT = "'JetBrains Mono','Fira Code','Cascadia Code','DejaVu Sans Mono',ui-monospace,monospace"
 FS, LH = 13, 18
 CW = FS * 0.6                     # monospace advance
-W, H = 1200, 780
+W, H = 1200, 1030
 TOP, STATUS = 34, 26              # window title bar, tmux status bar
-MID = 380                         # y where the bottom row of panes starts
+MID = 380                         # y where the middle row of panes starts
+GEO = 754                         # y where the full-width geo pane starts
 
 _delay = [0.0]
 
@@ -89,6 +91,7 @@ def pane_neofetch(x, y):
         [("role      ", "blue"), ("Red Team · GRC", "text")],
         [("focus     ", "blue"), ("offsec · vuln research", "text")],
         [("          ", "blue"), ("risk governance", "text")],
+        [("orbit     ", "blue"), ("space tech · geospatial", "text")],
         [("shell     ", "blue"), ("zsh · python3", "text")],
         [("arsenal   ", "blue"), ("nmap burp msf wireshark", "text")],
         [("frameworks", "blue"), (" NIST·ISO27001·CIS", "text")],
@@ -110,6 +113,7 @@ SERVICES = [  # port, repo, description (from each repo's README)
     ("80/tcp", "apifuzz", "OpenAPI spec → OWASP API Top 10 findings · SARIF"),
     ("443/tcp", "vulnsight", "evidence-based vuln assessment · risk scoring"),
     ("4444/tcp", "redops", "red team campaigns · ATT&CK TTPs · OPSEC checks"),
+    ("8080/tcp", "geovault", "geospatial web app · GeoServer · threat-modelled"),
     ("8443/tcp", "credchain", "solidity credential verification · sepolia"),
     ("31337/tcp", "stego", "PyQt6 image steganography · password lock"),
 ]
@@ -209,6 +213,65 @@ def pane_git(x, y, w):
     return out
 
 
+def ndvi(i, j):
+    """Deterministic fake NDVI field with a river through it."""
+    if abs(j - (4 + 2.2 * math.sin(i * 0.33))) < 0.7:
+        return -0.2
+    v = 0.4 + 0.28 * math.sin(i * 0.45) + 0.22 * math.cos(j * 0.7 + i * 0.2) + 0.08 * math.sin(i * j * 0.13)
+    return max(-0.1, min(0.9, v))
+
+
+def ndvi_color(v):
+    return "#3b6ea5" if v < 0 else "#8d6e3f" if v < 0.2 else "#c9b458" if v < 0.4 else "#7cb342" if v < 0.6 else "#2e7d32"
+
+
+def pane_geo(x, y):
+    out = prompt(x, y, "~/geo", "geo pass --orbit sso --product ndvi")
+    # left: Earth + sun-synchronous orbit, satellite rides the ellipse (SMIL)
+    cx, cy, r = x + 156, y + 2 * LH + 92, 62
+    out.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="#0f2a4a" stroke="{C["blue"]}"/>')
+    for rx in (20, 42):
+        out.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{r}" fill="none" stroke="{C["blue"]}" stroke-opacity=".35"/>')
+    for dy in (-30, 0, 30):
+        hw = math.sqrt(r * r - dy * dy)
+        out.append(f'<line x1="{cx - hw:.1f}" y1="{cy + dy}" x2="{cx + hw:.1f}" y2="{cy + dy}" stroke="{C["blue"]}" stroke-opacity=".35"/>')
+    orbit = f"M {cx - 125} {cy} a 125 36 0 1 0 250 0 a 125 36 0 1 0 -250 0"
+    out.append(f'<g transform="rotate(-24 {cx} {cy})">'
+               f'<path d="{orbit}" fill="none" stroke="{C["cyan"]}" stroke-dasharray="4 4" stroke-opacity=".7"/>'
+               f'<g><rect x="-6" y="-3" width="12" height="6" fill="{C["cyan"]}"/>'
+               f'<rect x="-14" y="-2" width="6" height="4" fill="{C["blue"]}"/><rect x="8" y="-2" width="6" height="4" fill="{C["blue"]}"/>'
+               f'<animateMotion dur="8s" repeatCount="indefinite" path="{orbit}"/></g></g>')
+    out.append(T(x, cy + r + 24, [("sun-synchronous", "cyan"), (" · 817 km · i 98.7°", "dim")], size=12))
+    # middle: gdalinfo-style scene metadata
+    mx, my = x + 340, y + 2 * LH + 16
+    rows = [
+        [("Driver: ", "dim"), ("GTiff/GeoTIFF", "text")],
+        [("Size is ", "dim"), ("10980, 10980", "text"), (" · 13 bands", "dim")],
+        [("CRS: ", "dim"), ("WGS 84 / UTM 43N (EPSG:32643)", "yellow")],
+        [("Pixel Size = ", "dim"), ("(10.0, -10.0) m", "text")],
+        [("NDVI = ", "dim"), ("(NIR − RED) / (NIR + RED)", "green")],
+        [("", "text")],
+        [("stack   ", "blue"), ("GeoServer · QGIS · GDAL · Bhuvan", "text")],
+        [("domain  ", "blue"), ("remote sensing · GIS · geoinformatics", "text")],
+        [("mission ", "blue"), ("space tech — ", "text"), ("ISRO track", "orange")],
+    ]
+    for i, row in enumerate(rows):
+        out.append(T(mx, my + i * LH, row))
+    # right: NDVI raster, satellite scan line sweeps across it
+    rx0, ry0, cell, ncol, nrow = x + 806, y + 2 * LH + 2, 15, 22, 9
+    for i in range(ncol):
+        for j in range(nrow):
+            out.append(f'<rect x="{rx0 + i * (cell + 1)}" y="{ry0 + j * (cell + 1)}" width="{cell}" height="{cell}" '
+                       f'fill="{ndvi_color(ndvi(i, j))}" fill-opacity=".85"/>')
+    out.append(f'<rect class="scan" x="{rx0}" y="{ry0 - 3}" width="3" height="{nrow * (cell + 1) + 4}" fill="{C["cyan"]}"/>')
+    ly = ry0 + nrow * (cell + 1) + 20
+    legend = [("NDVI · 10 m/px  ", "dim")]
+    for v, lab in ((-0.2, "water "), (0.1, "soil "), (0.3, "sparse "), (0.7, "dense")):
+        legend += [("■ ", ndvi_color(v)), (lab, "text")]
+    out.append(T(rx0, ly, legend, size=12))
+    return out
+
+
 # ── assemble ────────────────────────────────────────────────────────────────
 def build():
     _delay[0] = 0.0
@@ -221,14 +284,16 @@ def build():
     panes += pane_killchain(cols[0] + p, MID + p + 12, cols[1] - cols[0])
     panes += pane_grc(cols[1] + p, MID + p + 12)
     panes += pane_git(cols[2] + p, MID + p + 12, cols[3] - cols[2])
+    panes += pane_geo(p, GEO + p + 12)
     end = _delay[0] + 0.3
 
     sep = C["border"]
     lines = [
         f'<line x1="470" y1="{TOP}" x2="470" y2="{MID}" stroke="{C["tmux"]}"/>',   # active pane = nmap
         f'<line x1="0" y1="{MID}" x2="{W}" y2="{MID}" stroke="{sep}"/>',
-        f'<line x1="{cols[1]}" y1="{MID}" x2="{cols[1]}" y2="{bot}" stroke="{sep}"/>',
-        f'<line x1="{cols[2]}" y1="{MID}" x2="{cols[2]}" y2="{bot}" stroke="{sep}"/>',
+        f'<line x1="{cols[1]}" y1="{MID}" x2="{cols[1]}" y2="{GEO}" stroke="{sep}"/>',
+        f'<line x1="{cols[2]}" y1="{MID}" x2="{cols[2]}" y2="{GEO}" stroke="{sep}"/>',
+        f'<line x1="0" y1="{GEO}" x2="{W}" y2="{GEO}" stroke="{sep}"/>',
     ]
     title = [
         f'<rect width="{W}" height="{TOP}" fill="{C["bar"]}"/>',
@@ -237,7 +302,7 @@ def build():
     ] + [f'<circle cx="{W - 20 - i * 22}" cy="17" r="6" fill="{C[k]}"/>' for i, k in enumerate(["red", "yellow", "green"])]
     status = [
         f'<rect y="{bot}" width="{W}" height="{STATUS}" fill="{C["tmux"]}"/>',
-        T(10, bot + 18, [("[kairavi] 0:neofetch  1:nmap*  2:redops  3:grc  4:git", "#0b0f17")], anim=False, weight="bold"),
+        T(10, bot + 18, [("[kairavi] 0:neofetch  1:nmap*  2:redops  3:grc  4:git  5:geo", "#0b0f17")], anim=False, weight="bold"),
         T(W - 10, bot + 18, [('"kali" · the quieter you become, the more you are able to hear', "#0b0f17")],
           anim=False, anchor="end"),
     ]
@@ -252,10 +317,12 @@ text{{font-family:{FONT};}}
 @keyframes sweep{{from{{transform:translateY(0);}}to{{transform:translateY({7 * 30}px);}}}}
 .hot{{animation:hot 2s ease-in-out infinite alternate;}}
 @keyframes hot{{to{{fill-opacity:.95;}}}}
+.scan{{opacity:.8;animation:scan 5s linear infinite;}}
+@keyframes scan{{from{{transform:translateX(0);}}to{{transform:translateX({22 * 16 - 3}px);}}}}
 """
     body = "\n".join(title + lines + panes + status)
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
-            f'role="img" aria-label="Kairavi Shah — red team and GRC, Kali tmux terminal">\n'
+            f'role="img" aria-label="Kairavi Shah — red team, GRC and geospatial, Kali tmux terminal">\n'
             f'<style>{css}</style>\n'
             f'<rect width="{W}" height="{H}" rx="10" fill="{C["bg"]}" stroke="{C["border"]}"/>\n{body}\n</svg>\n')
 

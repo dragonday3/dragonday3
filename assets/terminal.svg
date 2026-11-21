@@ -1,16 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-label="Kairavi Shah — red team and GRC, Kali tmux terminal">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1030" viewBox="0 0 1200 1030" role="img" aria-label="Kairavi Shah — red team, GRC and geospatial, Kali tmux terminal">
 <style>
 text{font-family:'JetBrains Mono','Fira Code','Cascadia Code','DejaVu Sans Mono',ui-monospace,monospace;}
 .l{opacity:0;animation:in .25s ease forwards;}
 @keyframes in{to{opacity:1;}}
-.cur{animation:blink 1s steps(1) infinite;animation-delay:8.10s;opacity:0;}
+.cur{animation:blink 1s steps(1) infinite;animation-delay:9.90s;opacity:0;}
 @keyframes blink{0%{opacity:1;}50%{opacity:0;}}
 .sweep{animation:sweep 7s steps(7) infinite;}
 @keyframes sweep{from{transform:translateY(0);}to{transform:translateY(210px);}}
 .hot{animation:hot 2s ease-in-out infinite alternate;}
 @keyframes hot{to{fill-opacity:.95;}}
+.scan{opacity:.8;animation:scan 5s linear infinite;}
+@keyframes scan{from{transform:translateX(0);}to{transform:translateX(349px);}}
 </style>
-<rect width="1200" height="780" rx="10" fill="#0b0f17" stroke="#263042"/>
+<rect width="1200" height="1030" rx="10" fill="#0b0f17" stroke="#263042"/>
 <rect width="1200" height="34" fill="#151b26"/>
 <text x="600.0" y="22.0" font-size="13" text-anchor="middle" xml:space="preserve"><tspan fill="#d0d7e2">kairavi@kali: ~/recon</tspan></text>
 <text x="16.0" y="22.0" font-size="12" xml:space="preserve"><tspan fill="#367bf0">▣ </tspan><tspan fill="#6b7a90">File  Actions  Edit  View  Help</tspan></text>
@@ -21,6 +23,7 @@ text{font-family:'JetBrains Mono','Fira Code','Cascadia Code','DejaVu Sans Mono'
 <line x1="0" y1="380" x2="1200" y2="380" stroke="#263042"/>
 <line x1="400" y1="380" x2="400" y2="754" stroke="#263042"/>
 <line x1="800" y1="380" x2="800" y2="754" stroke="#263042"/>
+<line x1="0" y1="754" x2="1200" y2="754" stroke="#263042"/>
 <text x="14.0" y="60.0" font-size="13" font-weight="bold" class="l" style="animation-delay:0.12s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~</tspan><tspan fill="#367bf0">]</tspan></text>
 <text x="14.0" y="78.0" font-size="13" class="l" style="animation-delay:0.24s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">neofetch</tspan></text>
 <text x="14.0" y="110.0" font-size="13" class="l" style="animation-delay:0.36s" xml:space="preserve"><tspan fill="#ff4757">     _______     </tspan></text>
@@ -37,35 +40,37 @@ text{font-family:'JetBrains Mono','Fira Code','Cascadia Code','DejaVu Sans Mono'
 <text x="162.2" y="164.0" font-size="13" class="l" style="animation-delay:1.68s" xml:space="preserve"><tspan fill="#367bf0">role      </tspan><tspan fill="#d0d7e2">Red Team · GRC</tspan></text>
 <text x="162.2" y="182.0" font-size="13" class="l" style="animation-delay:1.80s" xml:space="preserve"><tspan fill="#367bf0">focus     </tspan><tspan fill="#d0d7e2">offsec · vuln research</tspan></text>
 <text x="162.2" y="200.0" font-size="13" class="l" style="animation-delay:1.92s" xml:space="preserve"><tspan fill="#367bf0">          </tspan><tspan fill="#d0d7e2">risk governance</tspan></text>
-<text x="162.2" y="218.0" font-size="13" class="l" style="animation-delay:2.04s" xml:space="preserve"><tspan fill="#367bf0">shell     </tspan><tspan fill="#d0d7e2">zsh · python3</tspan></text>
-<text x="162.2" y="236.0" font-size="13" class="l" style="animation-delay:2.16s" xml:space="preserve"><tspan fill="#367bf0">arsenal   </tspan><tspan fill="#d0d7e2">nmap burp msf wireshark</tspan></text>
-<text x="162.2" y="254.0" font-size="13" class="l" style="animation-delay:2.28s" xml:space="preserve"><tspan fill="#367bf0">frameworks</tspan><tspan fill="#d0d7e2"> NIST·ISO27001·CIS</tspan></text>
-<text x="162.2" y="272.0" font-size="13" class="l" style="animation-delay:2.40s" xml:space="preserve"><tspan fill="#367bf0">          </tspan><tspan fill="#d0d7e2">MITRE ATT&amp;CK · OWASP</tspan></text>
-<rect x="162.2" y="296.0" width="20" height="12" fill="#0b0f17" stroke="#263042"/>
-<rect x="184.2" y="296.0" width="20" height="12" fill="#ff4757" stroke="#263042"/>
-<rect x="206.2" y="296.0" width="20" height="12" fill="#2ed573" stroke="#263042"/>
-<rect x="228.2" y="296.0" width="20" height="12" fill="#ffd32a" stroke="#263042"/>
-<rect x="250.2" y="296.0" width="20" height="12" fill="#367bf0" stroke="#263042"/>
-<rect x="272.2" y="296.0" width="20" height="12" fill="#c56cf0" stroke="#263042"/>
-<rect x="294.2" y="296.0" width="20" height="12" fill="#22c7d6" stroke="#263042"/>
-<rect x="316.2" y="296.0" width="20" height="12" fill="#d0d7e2" stroke="#263042"/>
-<text x="484.0" y="60.0" font-size="13" font-weight="bold" class="l" style="animation-delay:2.52s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~/recon</tspan><tspan fill="#367bf0">]</tspan></text>
-<text x="484.0" y="78.0" font-size="13" class="l" style="animation-delay:2.64s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">nmap -sV --script=vuln github.com/dragonday3</tspan></text>
-<text x="484.0" y="106.0" font-size="13" class="l" style="animation-delay:2.76s" xml:space="preserve"><tspan fill="#6b7a90">Starting Nmap 7.95 ( https://nmap.org )</tspan></text>
-<text x="484.0" y="124.0" font-size="13" class="l" style="animation-delay:2.88s" xml:space="preserve"><tspan fill="#d0d7e2">Nmap scan report for </tspan><tspan fill="#22c7d6">github.com/dragonday3</tspan></text>
-<text x="484.0" y="142.0" font-size="13" class="l" style="animation-delay:3.00s" xml:space="preserve"><tspan fill="#d0d7e2">Host is up (0.0031s latency).</tspan></text>
-<text x="484.0" y="169.0" font-size="13" font-weight="bold" class="l" style="animation-delay:3.12s" xml:space="preserve"><tspan fill="#ffd32a">PORT       STATE  SERVICE     VERSION</tspan></text>
-<text x="484.0" y="187.0" font-size="13" class="l" style="animation-delay:3.24s" xml:space="preserve"><tspan fill="#d0d7e2">22/tcp     </tspan><tspan fill="#2ed573">open   </tspan><tspan fill="#ff4757">reconmap    </tspan><tspan fill="#d0d7e2">passive attack-surface intel · CT logs · shodan</tspan></text>
-<text x="484.0" y="205.0" font-size="13" class="l" style="animation-delay:3.36s" xml:space="preserve"><tspan fill="#d0d7e2">80/tcp     </tspan><tspan fill="#2ed573">open   </tspan><tspan fill="#ff4757">apifuzz     </tspan><tspan fill="#d0d7e2">OpenAPI spec → OWASP API Top 10 findings · SARIF</tspan></text>
-<text x="484.0" y="223.0" font-size="13" class="l" style="animation-delay:3.48s" xml:space="preserve"><tspan fill="#d0d7e2">443/tcp    </tspan><tspan fill="#2ed573">open   </tspan><tspan fill="#ff4757">vulnsight   </tspan><tspan fill="#d0d7e2">evidence-based vuln assessment · risk scoring</tspan></text>
-<text x="484.0" y="241.0" font-size="13" class="l" style="animation-delay:3.60s" xml:space="preserve"><tspan fill="#d0d7e2">4444/tcp   </tspan><tspan fill="#2ed573">open   </tspan><tspan fill="#ff4757">redops      </tspan><tspan fill="#d0d7e2">red team campaigns · ATT&amp;CK TTPs · OPSEC checks</tspan></text>
-<text x="484.0" y="259.0" font-size="13" class="l" style="animation-delay:3.72s" xml:space="preserve"><tspan fill="#d0d7e2">8443/tcp   </tspan><tspan fill="#2ed573">open   </tspan><tspan fill="#ff4757">credchain   </tspan><tspan fill="#d0d7e2">solidity credential verification · sepolia</tspan></text>
-<text x="484.0" y="277.0" font-size="13" class="l" style="animation-delay:3.84s" xml:space="preserve"><tspan fill="#d0d7e2">31337/tcp  </tspan><tspan fill="#2ed573">open   </tspan><tspan fill="#ff4757">stego       </tspan><tspan fill="#d0d7e2">PyQt6 image steganography · password lock</tspan></text>
-<text x="484.0" y="304.0" font-size="13" class="l" style="animation-delay:3.96s" xml:space="preserve"><tspan fill="#6b7a90">| vulners: </tspan><tspan fill="#c56cf0">built from scratch in python — no black-box wrappers</tspan></text>
-<text x="484.0" y="322.0" font-size="13" class="l" style="animation-delay:4.08s" xml:space="preserve"><tspan fill="#6b7a90">|_ </tspan><tspan fill="#c56cf0">understand the attack before you automate it.</tspan></text>
-<text x="484.0" y="349.0" font-size="13" class="l" style="animation-delay:4.20s" xml:space="preserve"><tspan fill="#d0d7e2">Nmap done: </tspan><tspan fill="#2ed573">6 services up</tspan><tspan fill="#d0d7e2"> · scanned in 0.42 seconds</tspan></text>
-<text x="14.0" y="406.0" font-size="13" font-weight="bold" class="l" style="animation-delay:4.32s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~/redops</tspan><tspan fill="#367bf0">]</tspan></text>
-<text x="14.0" y="424.0" font-size="13" class="l" style="animation-delay:4.44s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">redops chain --mode=assume-breach</tspan></text>
+<text x="162.2" y="218.0" font-size="13" class="l" style="animation-delay:2.04s" xml:space="preserve"><tspan fill="#367bf0">orbit     </tspan><tspan fill="#d0d7e2">space tech · geospatial</tspan></text>
+<text x="162.2" y="236.0" font-size="13" class="l" style="animation-delay:2.16s" xml:space="preserve"><tspan fill="#367bf0">shell     </tspan><tspan fill="#d0d7e2">zsh · python3</tspan></text>
+<text x="162.2" y="254.0" font-size="13" class="l" style="animation-delay:2.28s" xml:space="preserve"><tspan fill="#367bf0">arsenal   </tspan><tspan fill="#d0d7e2">nmap burp msf wireshark</tspan></text>
+<text x="162.2" y="272.0" font-size="13" class="l" style="animation-delay:2.40s" xml:space="preserve"><tspan fill="#367bf0">frameworks</tspan><tspan fill="#d0d7e2"> NIST·ISO27001·CIS</tspan></text>
+<text x="162.2" y="290.0" font-size="13" class="l" style="animation-delay:2.52s" xml:space="preserve"><tspan fill="#367bf0">          </tspan><tspan fill="#d0d7e2">MITRE ATT&amp;CK · OWASP</tspan></text>
+<rect x="162.2" y="314.0" width="20" height="12" fill="#0b0f17" stroke="#263042"/>
+<rect x="184.2" y="314.0" width="20" height="12" fill="#ff4757" stroke="#263042"/>
+<rect x="206.2" y="314.0" width="20" height="12" fill="#2ed573" stroke="#263042"/>
+<rect x="228.2" y="314.0" width="20" height="12" fill="#ffd32a" stroke="#263042"/>
+<rect x="250.2" y="314.0" width="20" height="12" fill="#367bf0" stroke="#263042"/>
+<rect x="272.2" y="314.0" width="20" height="12" fill="#c56cf0" stroke="#263042"/>
+<rect x="294.2" y="314.0" width="20" height="12" fill="#22c7d6" stroke="#263042"/>
+<rect x="316.2" y="314.0" width="20" height="12" fill="#d0d7e2" stroke="#263042"/>
+<text x="484.0" y="60.0" font-size="13" font-weight="bold" class="l" style="animation-delay:2.64s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~/recon</tspan><tspan fill="#367bf0">]</tspan></text>
+<text x="484.0" y="78.0" font-size="13" class="l" style="animation-delay:2.76s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">nmap -sV --script=vuln github.com/dragonday3</tspan></text>
+<text x="484.0" y="106.0" font-size="13" class="l" style="animation-delay:2.88s" xml:space="preserve"><tspan fill="#6b7a90">Starting Nmap 7.95 ( https://nmap.org )</tspan></text>
+<text x="484.0" y="124.0" font-size="13" class="l" style="animation-delay:3.00s" xml:space="preserve"><tspan fill="#d0d7e2">Nmap scan report for </tspan><tspan fill="#22c7d6">github.com/dragonday3</tspan></text>
+<text x="484.0" y="142.0" font-size="13" class="l" style="animation-delay:3.12s" xml:space="preserve"><tspan fill="#d0d7e2">Host is up (0.0031s latency).</tspan></text>
+<text x="484.0" y="169.0" font-size="13" font-weight="bold" class="l" style="animation-delay:3.24s" xml:space="preserve"><tspan fill="#ffd32a">PORT       STATE  SERVICE     VERSION</tspan></text>
+<text x="484.0" y="187.0" font-size="13" class="l" style="animation-delay:3.36s" xml:space="preserve"><tspan fill="#d0d7e2">22/tcp     </tspan><tspan fill="#2ed573">open   </tspan><tspan fill="#ff4757">reconmap    </tspan><tspan fill="#d0d7e2">passive attack-surface intel · CT logs · shodan</tspan></text>
+<text x="484.0" y="205.0" font-size="13" class="l" style="animation-delay:3.48s" xml:space="preserve"><tspan fill="#d0d7e2">80/tcp     </tspan><tspan fill="#2ed573">open   </tspan><tspan fill="#ff4757">apifuzz     </tspan><tspan fill="#d0d7e2">OpenAPI spec → OWASP API Top 10 findings · SARIF</tspan></text>
+<text x="484.0" y="223.0" font-size="13" class="l" style="animation-delay:3.60s" xml:space="preserve"><tspan fill="#d0d7e2">443/tcp    </tspan><tspan fill="#2ed573">open   </tspan><tspan fill="#ff4757">vulnsight   </tspan><tspan fill="#d0d7e2">evidence-based vuln assessment · risk scoring</tspan></text>
+<text x="484.0" y="241.0" font-size="13" class="l" style="animation-delay:3.72s" xml:space="preserve"><tspan fill="#d0d7e2">4444/tcp   </tspan><tspan fill="#2ed573">open   </tspan><tspan fill="#ff4757">redops      </tspan><tspan fill="#d0d7e2">red team campaigns · ATT&amp;CK TTPs · OPSEC checks</tspan></text>
+<text x="484.0" y="259.0" font-size="13" class="l" style="animation-delay:3.84s" xml:space="preserve"><tspan fill="#d0d7e2">8080/tcp   </tspan><tspan fill="#2ed573">open   </tspan><tspan fill="#ff4757">geovault    </tspan><tspan fill="#d0d7e2">geospatial web app · GeoServer · threat-modelled</tspan></text>
+<text x="484.0" y="277.0" font-size="13" class="l" style="animation-delay:3.96s" xml:space="preserve"><tspan fill="#d0d7e2">8443/tcp   </tspan><tspan fill="#2ed573">open   </tspan><tspan fill="#ff4757">credchain   </tspan><tspan fill="#d0d7e2">solidity credential verification · sepolia</tspan></text>
+<text x="484.0" y="295.0" font-size="13" class="l" style="animation-delay:4.08s" xml:space="preserve"><tspan fill="#d0d7e2">31337/tcp  </tspan><tspan fill="#2ed573">open   </tspan><tspan fill="#ff4757">stego       </tspan><tspan fill="#d0d7e2">PyQt6 image steganography · password lock</tspan></text>
+<text x="484.0" y="322.0" font-size="13" class="l" style="animation-delay:4.20s" xml:space="preserve"><tspan fill="#6b7a90">| vulners: </tspan><tspan fill="#c56cf0">built from scratch in python — no black-box wrappers</tspan></text>
+<text x="484.0" y="340.0" font-size="13" class="l" style="animation-delay:4.32s" xml:space="preserve"><tspan fill="#6b7a90">|_ </tspan><tspan fill="#c56cf0">understand the attack before you automate it.</tspan></text>
+<text x="484.0" y="367.0" font-size="13" class="l" style="animation-delay:4.44s" xml:space="preserve"><tspan fill="#d0d7e2">Nmap done: </tspan><tspan fill="#2ed573">7 services up</tspan><tspan fill="#d0d7e2"> · scanned in 0.42 seconds</tspan></text>
+<text x="14.0" y="406.0" font-size="13" font-weight="bold" class="l" style="animation-delay:4.56s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~/redops</tspan><tspan fill="#367bf0">]</tspan></text>
+<text x="14.0" y="424.0" font-size="13" class="l" style="animation-delay:4.68s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">redops chain --mode=assume-breach</tspan></text>
 <rect x="14.0" y="454.0" width="376.0" height="24" rx="3" fill="none" stroke="#263042"/>
 <text x="22.0" y="470.0" font-size="13" xml:space="preserve"><tspan fill="#6b7a90">1. </tspan><tspan fill="#ff4757">recon     </tspan><tspan fill="#d0d7e2">what can an attacker see?</tspan></text>
 <rect x="14.0" y="484.0" width="376.0" height="24" rx="3" fill="none" stroke="#263042"/>
@@ -81,9 +86,9 @@ text{font-family:'JetBrains Mono','Fira Code','Cascadia Code','DejaVu Sans Mono'
 <rect x="14.0" y="634.0" width="376.0" height="24" rx="3" fill="none" stroke="#263042"/>
 <text x="22.0" y="650.0" font-size="13" xml:space="preserve"><tspan fill="#6b7a90">7. </tspan><tspan fill="#ff4757">exfil     </tspan><tspan fill="#d0d7e2">what leaves the network?</tspan></text>
 <rect class="sweep" x="14.0" y="454.0" width="376.0" height="24" rx="3" fill="#ff4757" fill-opacity="0.16" stroke="#ff4757"/>
-<text x="14.0" y="678.0" font-size="13" class="l" style="animation-delay:4.56s" xml:space="preserve"><tspan fill="#2ed573">[+] </tspan><tspan fill="#d0d7e2">build the chain. then break every link.</tspan></text>
-<text x="414.0" y="406.0" font-size="13" font-weight="bold" class="l" style="animation-delay:4.68s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~/grc</tspan><tspan fill="#367bf0">]</tspan></text>
-<text x="414.0" y="424.0" font-size="13" class="l" style="animation-delay:4.80s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">grc risk --matrix --framework nist-csf</tspan></text>
+<text x="14.0" y="678.0" font-size="13" class="l" style="animation-delay:4.80s" xml:space="preserve"><tspan fill="#2ed573">[+] </tspan><tspan fill="#d0d7e2">build the chain. then break every link.</tspan></text>
+<text x="414.0" y="406.0" font-size="13" font-weight="bold" class="l" style="animation-delay:4.92s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~/grc</tspan><tspan fill="#367bf0">]</tspan></text>
+<text x="414.0" y="424.0" font-size="13" class="l" style="animation-delay:5.04s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">grc risk --matrix --framework nist-csf</tspan></text>
 <text x="420.0" y="474.0" font-size="13" xml:space="preserve"><tspan fill="#6b7a90">5</tspan></text>
 <rect x="438.0" y="454.0" width="26" height="26" rx="3" fill="#ffd32a" fill-opacity="0.55"/>
 <rect x="467.0" y="454.0" width="26" height="26" rx="3" fill="#ff9f43" fill-opacity="0.55"/>
@@ -116,33 +121,252 @@ text{font-family:'JetBrains Mono','Fira Code','Cascadia Code','DejaVu Sans Mono'
 <rect x="554.0" y="570.0" width="26" height="26" rx="3" fill="#ffd32a" fill-opacity="0.55"/>
 <text x="438.0" y="613.0" font-size="13" xml:space="preserve"><tspan fill="#6b7a90">impact →</tspan></text>
 <text x="412.0" y="448.0" font-size="13" xml:space="preserve"><tspan fill="#6b7a90">L</tspan></text>
-<text x="597.0" y="468.0" font-size="12" class="l" style="animation-delay:4.92s" xml:space="preserve"><tspan fill="#367bf0">NIST  </tspan><tspan fill="#d0d7e2">ID·PR·DE·RS·RC</tspan></text>
-<text x="597.0" y="494.0" font-size="12" class="l" style="animation-delay:5.04s" xml:space="preserve"><tspan fill="#367bf0">ISO   </tspan><tspan fill="#d0d7e2">27001 ISMS</tspan></text>
-<text x="597.0" y="520.0" font-size="12" class="l" style="animation-delay:5.16s" xml:space="preserve"><tspan fill="#367bf0">CIS   </tspan><tspan fill="#d0d7e2">v8 IG1→IG3</tspan></text>
-<text x="597.0" y="546.0" font-size="12" class="l" style="animation-delay:5.28s" xml:space="preserve"><tspan fill="#367bf0">MITRE </tspan><tspan fill="#d0d7e2">ATT&amp;CK TTPs</tspan></text>
-<text x="597.0" y="572.0" font-size="12" class="l" style="animation-delay:5.40s" xml:space="preserve"><tspan fill="#367bf0">OWASP </tspan><tspan fill="#d0d7e2">Top10 · API</tspan></text>
-<text x="414.0" y="635.0" font-size="12" class="l" style="animation-delay:5.52s" xml:space="preserve"><tspan fill="#ffd32a">risk = threat × vuln × impact</tspan></text>
-<text x="414.0" y="653.0" font-size="12" class="l" style="animation-delay:5.64s" xml:space="preserve"><tspan fill="#2ed573">[+] </tspan><tspan fill="#d0d7e2">governance turns process into accountability</tspan></text>
-<text x="814.0" y="406.0" font-size="13" font-weight="bold" class="l" style="animation-delay:5.76s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~</tspan><tspan fill="#367bf0">]</tspan></text>
-<text x="814.0" y="424.0" font-size="13" class="l" style="animation-delay:5.88s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">git log --all --oneline -5</tspan></text>
-<text x="814.0" y="452.0" font-size="13" class="l" style="animation-delay:6.00s" xml:space="preserve"><tspan fill="#ffd32a">020c9c6</tspan><tspan fill="#6b7a90"> 2026-11-21</tspan><tspan fill="#22c7d6"> (geovault)</tspan></text>
-<text x="829.6" y="470.0" font-size="13" class="l" style="animation-delay:6.12s" xml:space="preserve"><tspan fill="#d0d7e2">feat(geoserver): publish public places thro…</tspan></text>
-<text x="814.0" y="488.0" font-size="13" class="l" style="animation-delay:6.24s" xml:space="preserve"><tspan fill="#ffd32a">39232d0</tspan><tspan fill="#6b7a90"> 2026-11-21</tspan><tspan fill="#22c7d6"> (geovault)</tspan></text>
-<text x="829.6" y="506.0" font-size="13" class="l" style="animation-delay:6.36s" xml:space="preserve"><tspan fill="#d0d7e2">feat(frontend): build the safe-deposit hall…</tspan></text>
-<text x="814.0" y="524.0" font-size="13" class="l" style="animation-delay:6.48s" xml:space="preserve"><tspan fill="#ffd32a">e88fa0c</tspan><tspan fill="#6b7a90"> 2026-11-20</tspan><tspan fill="#22c7d6"> (geovault)</tspan></text>
-<text x="829.6" y="542.0" font-size="13" class="l" style="animation-delay:6.60s" xml:space="preserve"><tspan fill="#d0d7e2">feat(data): add Ahmedabad region with OpenS…</tspan></text>
-<text x="814.0" y="560.0" font-size="13" class="l" style="animation-delay:6.72s" xml:space="preserve"><tspan fill="#ffd32a">425a3c9</tspan><tspan fill="#6b7a90"> 2026-11-20</tspan><tspan fill="#22c7d6"> (geovault)</tspan></text>
-<text x="829.6" y="578.0" font-size="13" class="l" style="animation-delay:6.84s" xml:space="preserve"><tspan fill="#d0d7e2">feat(security): add security headers, reque…</tspan></text>
-<text x="814.0" y="596.0" font-size="13" class="l" style="animation-delay:6.96s" xml:space="preserve"><tspan fill="#ffd32a">93cdebb</tspan><tspan fill="#6b7a90"> 2026-11-20</tspan><tspan fill="#22c7d6"> (geovault)</tspan></text>
-<text x="829.6" y="614.0" font-size="13" class="l" style="animation-delay:7.08s" xml:space="preserve"><tspan fill="#d0d7e2">feat(photos): add EXIF-stripped photo uploa…</tspan></text>
-<text x="814.0" y="632.0" font-size="13" class="l" style="animation-delay:7.20s" xml:space="preserve"><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">cat certs.txt</tspan></text>
-<text x="814.0" y="650.0" font-size="13" class="l" style="animation-delay:7.32s" xml:space="preserve"><tspan fill="#6b7a90">[ ] </tspan><tspan fill="#d0d7e2">CompTIA Security+  </tspan><tspan fill="#ffd32a"># in progress</tspan></text>
-<text x="814.0" y="668.0" font-size="13" class="l" style="animation-delay:7.44s" xml:space="preserve"><tspan fill="#6b7a90">[ ] </tspan><tspan fill="#d0d7e2">CEH                </tspan><tspan fill="#6b7a90"># queued</tspan></text>
-<text x="814.0" y="686.0" font-size="13" class="l" style="animation-delay:7.56s" xml:space="preserve"><tspan fill="#6b7a90">[ ] </tspan><tspan fill="#d0d7e2">OSCP               </tspan><tspan fill="#ff4757"># target</tspan></text>
-<text x="814.0" y="704.0" font-size="13" class="l" style="animation-delay:7.68s" xml:space="preserve"><tspan fill="#6b7a90">[ ] </tspan><tspan fill="#d0d7e2">CISM / CRISC       </tspan><tspan fill="#367bf0"># grc track</tspan></text>
-<text x="814.0" y="724.0" font-size="13" class="l" style="animation-delay:7.80s" xml:space="preserve"><tspan fill="#ff4757">$ </tspan></text>
+<text x="597.0" y="468.0" font-size="12" class="l" style="animation-delay:5.16s" xml:space="preserve"><tspan fill="#367bf0">NIST  </tspan><tspan fill="#d0d7e2">ID·PR·DE·RS·RC</tspan></text>
+<text x="597.0" y="494.0" font-size="12" class="l" style="animation-delay:5.28s" xml:space="preserve"><tspan fill="#367bf0">ISO   </tspan><tspan fill="#d0d7e2">27001 ISMS</tspan></text>
+<text x="597.0" y="520.0" font-size="12" class="l" style="animation-delay:5.40s" xml:space="preserve"><tspan fill="#367bf0">CIS   </tspan><tspan fill="#d0d7e2">v8 IG1→IG3</tspan></text>
+<text x="597.0" y="546.0" font-size="12" class="l" style="animation-delay:5.52s" xml:space="preserve"><tspan fill="#367bf0">MITRE </tspan><tspan fill="#d0d7e2">ATT&amp;CK TTPs</tspan></text>
+<text x="597.0" y="572.0" font-size="12" class="l" style="animation-delay:5.64s" xml:space="preserve"><tspan fill="#367bf0">OWASP </tspan><tspan fill="#d0d7e2">Top10 · API</tspan></text>
+<text x="414.0" y="635.0" font-size="12" class="l" style="animation-delay:5.76s" xml:space="preserve"><tspan fill="#ffd32a">risk = threat × vuln × impact</tspan></text>
+<text x="414.0" y="653.0" font-size="12" class="l" style="animation-delay:5.88s" xml:space="preserve"><tspan fill="#2ed573">[+] </tspan><tspan fill="#d0d7e2">governance turns process into accountability</tspan></text>
+<text x="814.0" y="406.0" font-size="13" font-weight="bold" class="l" style="animation-delay:6.00s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~</tspan><tspan fill="#367bf0">]</tspan></text>
+<text x="814.0" y="424.0" font-size="13" class="l" style="animation-delay:6.12s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">git log --all --oneline -5</tspan></text>
+<text x="814.0" y="452.0" font-size="13" class="l" style="animation-delay:6.24s" xml:space="preserve"><tspan fill="#ffd32a">020c9c6</tspan><tspan fill="#6b7a90"> 2026-11-21</tspan><tspan fill="#22c7d6"> (geovault)</tspan></text>
+<text x="829.6" y="470.0" font-size="13" class="l" style="animation-delay:6.36s" xml:space="preserve"><tspan fill="#d0d7e2">feat(geoserver): publish public places thro…</tspan></text>
+<text x="814.0" y="488.0" font-size="13" class="l" style="animation-delay:6.48s" xml:space="preserve"><tspan fill="#ffd32a">39232d0</tspan><tspan fill="#6b7a90"> 2026-11-21</tspan><tspan fill="#22c7d6"> (geovault)</tspan></text>
+<text x="829.6" y="506.0" font-size="13" class="l" style="animation-delay:6.60s" xml:space="preserve"><tspan fill="#d0d7e2">feat(frontend): build the safe-deposit hall…</tspan></text>
+<text x="814.0" y="524.0" font-size="13" class="l" style="animation-delay:6.72s" xml:space="preserve"><tspan fill="#ffd32a">e88fa0c</tspan><tspan fill="#6b7a90"> 2026-11-20</tspan><tspan fill="#22c7d6"> (geovault)</tspan></text>
+<text x="829.6" y="542.0" font-size="13" class="l" style="animation-delay:6.84s" xml:space="preserve"><tspan fill="#d0d7e2">feat(data): add Ahmedabad region with OpenS…</tspan></text>
+<text x="814.0" y="560.0" font-size="13" class="l" style="animation-delay:6.96s" xml:space="preserve"><tspan fill="#ffd32a">425a3c9</tspan><tspan fill="#6b7a90"> 2026-11-20</tspan><tspan fill="#22c7d6"> (geovault)</tspan></text>
+<text x="829.6" y="578.0" font-size="13" class="l" style="animation-delay:7.08s" xml:space="preserve"><tspan fill="#d0d7e2">feat(security): add security headers, reque…</tspan></text>
+<text x="814.0" y="596.0" font-size="13" class="l" style="animation-delay:7.20s" xml:space="preserve"><tspan fill="#ffd32a">93cdebb</tspan><tspan fill="#6b7a90"> 2026-11-20</tspan><tspan fill="#22c7d6"> (geovault)</tspan></text>
+<text x="829.6" y="614.0" font-size="13" class="l" style="animation-delay:7.32s" xml:space="preserve"><tspan fill="#d0d7e2">feat(photos): add EXIF-stripped photo uploa…</tspan></text>
+<text x="814.0" y="632.0" font-size="13" class="l" style="animation-delay:7.44s" xml:space="preserve"><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">cat certs.txt</tspan></text>
+<text x="814.0" y="650.0" font-size="13" class="l" style="animation-delay:7.56s" xml:space="preserve"><tspan fill="#6b7a90">[ ] </tspan><tspan fill="#d0d7e2">CompTIA Security+  </tspan><tspan fill="#ffd32a"># in progress</tspan></text>
+<text x="814.0" y="668.0" font-size="13" class="l" style="animation-delay:7.68s" xml:space="preserve"><tspan fill="#6b7a90">[ ] </tspan><tspan fill="#d0d7e2">CEH                </tspan><tspan fill="#6b7a90"># queued</tspan></text>
+<text x="814.0" y="686.0" font-size="13" class="l" style="animation-delay:7.80s" xml:space="preserve"><tspan fill="#6b7a90">[ ] </tspan><tspan fill="#d0d7e2">OSCP               </tspan><tspan fill="#ff4757"># target</tspan></text>
+<text x="814.0" y="704.0" font-size="13" class="l" style="animation-delay:7.92s" xml:space="preserve"><tspan fill="#6b7a90">[ ] </tspan><tspan fill="#d0d7e2">CISM / CRISC       </tspan><tspan fill="#367bf0"># grc track</tspan></text>
+<text x="814.0" y="724.0" font-size="13" class="l" style="animation-delay:8.04s" xml:space="preserve"><tspan fill="#ff4757">$ </tspan></text>
 <rect class="cur" x="829.6" y="712.0" width="7.8" height="15" fill="#d0d7e2"/>
-<rect y="754" width="1200" height="26" fill="#2ed573"/>
-<text x="10.0" y="772.0" font-size="13" font-weight="bold" xml:space="preserve"><tspan fill="#0b0f17">[kairavi] 0:neofetch  1:nmap*  2:redops  3:grc  4:git</tspan></text>
-<text x="1190.0" y="772.0" font-size="13" text-anchor="end" xml:space="preserve"><tspan fill="#0b0f17">&quot;kali&quot; · the quieter you become, the more you are able to hear</tspan></text>
+<text x="14.0" y="780.0" font-size="13" font-weight="bold" class="l" style="animation-delay:8.16s" xml:space="preserve"><tspan fill="#367bf0">┌──(</tspan><tspan fill="#ff4757">kairavi㉿kali</tspan><tspan fill="#367bf0">)-[</tspan><tspan fill="#d0d7e2">~/geo</tspan><tspan fill="#367bf0">]</tspan></text>
+<text x="14.0" y="798.0" font-size="13" class="l" style="animation-delay:8.28s" xml:space="preserve"><tspan fill="#367bf0">└─</tspan><tspan fill="#ff4757">$ </tspan><tspan fill="#d0d7e2">geo pass --orbit sso --product ndvi</tspan></text>
+<circle cx="170" cy="908" r="62" fill="#0f2a4a" stroke="#367bf0"/>
+<ellipse cx="170" cy="908" rx="20" ry="62" fill="none" stroke="#367bf0" stroke-opacity=".35"/>
+<ellipse cx="170" cy="908" rx="42" ry="62" fill="none" stroke="#367bf0" stroke-opacity=".35"/>
+<line x1="115.7" y1="878" x2="224.3" y2="878" stroke="#367bf0" stroke-opacity=".35"/>
+<line x1="108.0" y1="908" x2="232.0" y2="908" stroke="#367bf0" stroke-opacity=".35"/>
+<line x1="115.7" y1="938" x2="224.3" y2="938" stroke="#367bf0" stroke-opacity=".35"/>
+<g transform="rotate(-24 170 908)"><path d="M 45 908 a 125 36 0 1 0 250 0 a 125 36 0 1 0 -250 0" fill="none" stroke="#22c7d6" stroke-dasharray="4 4" stroke-opacity=".7"/><g><rect x="-6" y="-3" width="12" height="6" fill="#22c7d6"/><rect x="-14" y="-2" width="6" height="4" fill="#367bf0"/><rect x="8" y="-2" width="6" height="4" fill="#367bf0"/><animateMotion dur="8s" repeatCount="indefinite" path="M 45 908 a 125 36 0 1 0 250 0 a 125 36 0 1 0 -250 0"/></g></g>
+<text x="14.0" y="994.0" font-size="12" class="l" style="animation-delay:8.40s" xml:space="preserve"><tspan fill="#22c7d6">sun-synchronous</tspan><tspan fill="#6b7a90"> · 817 km · i 98.7°</tspan></text>
+<text x="354.0" y="832.0" font-size="13" class="l" style="animation-delay:8.52s" xml:space="preserve"><tspan fill="#6b7a90">Driver: </tspan><tspan fill="#d0d7e2">GTiff/GeoTIFF</tspan></text>
+<text x="354.0" y="850.0" font-size="13" class="l" style="animation-delay:8.64s" xml:space="preserve"><tspan fill="#6b7a90">Size is </tspan><tspan fill="#d0d7e2">10980, 10980</tspan><tspan fill="#6b7a90"> · 13 bands</tspan></text>
+<text x="354.0" y="868.0" font-size="13" class="l" style="animation-delay:8.76s" xml:space="preserve"><tspan fill="#6b7a90">CRS: </tspan><tspan fill="#ffd32a">WGS 84 / UTM 43N (EPSG:32643)</tspan></text>
+<text x="354.0" y="886.0" font-size="13" class="l" style="animation-delay:8.88s" xml:space="preserve"><tspan fill="#6b7a90">Pixel Size = </tspan><tspan fill="#d0d7e2">(10.0, -10.0) m</tspan></text>
+<text x="354.0" y="904.0" font-size="13" class="l" style="animation-delay:9.00s" xml:space="preserve"><tspan fill="#6b7a90">NDVI = </tspan><tspan fill="#2ed573">(NIR − RED) / (NIR + RED)</tspan></text>
+<text x="354.0" y="922.0" font-size="13" class="l" style="animation-delay:9.12s" xml:space="preserve"><tspan fill="#d0d7e2"></tspan></text>
+<text x="354.0" y="940.0" font-size="13" class="l" style="animation-delay:9.24s" xml:space="preserve"><tspan fill="#367bf0">stack   </tspan><tspan fill="#d0d7e2">GeoServer · QGIS · GDAL · Bhuvan</tspan></text>
+<text x="354.0" y="958.0" font-size="13" class="l" style="animation-delay:9.36s" xml:space="preserve"><tspan fill="#367bf0">domain  </tspan><tspan fill="#d0d7e2">remote sensing · GIS · geoinformatics</tspan></text>
+<text x="354.0" y="976.0" font-size="13" class="l" style="animation-delay:9.48s" xml:space="preserve"><tspan fill="#367bf0">mission </tspan><tspan fill="#d0d7e2">space tech — </tspan><tspan fill="#ff9f43">ISRO track</tspan></text>
+<rect x="820" y="818" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="820" y="834" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="820" y="850" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="820" y="866" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="820" y="882" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="820" y="898" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="820" y="914" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="820" y="930" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="820" y="946" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="836" y="818" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="836" y="834" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="836" y="850" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="836" y="866" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="836" y="882" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="836" y="898" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="836" y="914" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="836" y="930" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="836" y="946" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="852" y="818" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="852" y="834" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="852" y="850" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="852" y="866" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="852" y="882" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="852" y="898" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="852" y="914" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="852" y="930" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="852" y="946" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="868" y="818" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="868" y="834" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="868" y="850" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="868" y="866" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="868" y="882" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="868" y="898" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="868" y="914" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="868" y="930" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="868" y="946" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="884" y="818" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="884" y="834" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="884" y="850" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="884" y="866" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="884" y="882" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="884" y="898" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="884" y="914" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="884" y="930" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="884" y="946" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="900" y="818" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="900" y="834" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="900" y="850" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="900" y="866" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="900" y="882" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="900" y="898" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="900" y="914" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="900" y="930" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="900" y="946" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="916" y="818" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="916" y="834" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="916" y="850" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="916" y="866" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="916" y="882" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="916" y="898" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="916" y="914" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="916" y="930" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="916" y="946" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="932" y="818" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="932" y="834" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="932" y="850" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="932" y="866" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="932" y="882" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="932" y="898" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="932" y="914" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="932" y="930" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="932" y="946" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="948" y="818" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="948" y="834" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="948" y="850" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="948" y="866" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="948" y="882" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="948" y="898" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="948" y="914" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="948" y="930" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="948" y="946" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="964" y="818" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="964" y="834" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="964" y="850" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="964" y="866" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="964" y="882" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="964" y="898" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="964" y="914" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="964" y="930" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="964" y="946" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="980" y="818" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="980" y="834" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="980" y="850" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="980" y="866" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="980" y="882" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="980" y="898" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="980" y="914" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="980" y="930" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="980" y="946" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="996" y="818" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="996" y="834" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="996" y="850" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="996" y="866" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="996" y="882" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="996" y="898" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="996" y="914" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="996" y="930" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="996" y="946" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="1012" y="818" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="1012" y="834" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="1012" y="850" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="1012" y="866" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="1012" y="882" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1012" y="898" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1012" y="914" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1012" y="930" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1012" y="946" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="1028" y="818" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="1028" y="834" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="1028" y="850" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="1028" y="866" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1028" y="882" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1028" y="898" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1028" y="914" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1028" y="930" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1028" y="946" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1044" y="818" width="15" height="15" fill="#8d6e3f" fill-opacity=".85"/>
+<rect x="1044" y="834" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1044" y="850" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="1044" y="866" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1044" y="882" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1044" y="898" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1044" y="914" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1044" y="930" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1044" y="946" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1060" y="818" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1060" y="834" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1060" y="850" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="1060" y="866" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1060" y="882" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1060" y="898" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1060" y="914" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1060" y="930" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1060" y="946" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1076" y="818" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1076" y="834" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1076" y="850" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="1076" y="866" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1076" y="882" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1076" y="898" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1076" y="914" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1076" y="930" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1076" y="946" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1092" y="818" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1092" y="834" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1092" y="850" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="1092" y="866" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="1092" y="882" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1092" y="898" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1092" y="914" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1092" y="930" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1092" y="946" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1108" y="818" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1108" y="834" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1108" y="850" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1108" y="866" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="1108" y="882" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1108" y="898" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1108" y="914" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1108" y="930" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1108" y="946" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1124" y="818" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1124" y="834" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1124" y="850" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1124" y="866" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1124" y="882" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="1124" y="898" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1124" y="914" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1124" y="930" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1124" y="946" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1140" y="818" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1140" y="834" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1140" y="850" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1140" y="866" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1140" y="882" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="1140" y="898" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="1140" y="914" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1140" y="930" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1140" y="946" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1156" y="818" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1156" y="834" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1156" y="850" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1156" y="866" width="15" height="15" fill="#2e7d32" fill-opacity=".85"/>
+<rect x="1156" y="882" width="15" height="15" fill="#7cb342" fill-opacity=".85"/>
+<rect x="1156" y="898" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="1156" y="914" width="15" height="15" fill="#3b6ea5" fill-opacity=".85"/>
+<rect x="1156" y="930" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect x="1156" y="946" width="15" height="15" fill="#c9b458" fill-opacity=".85"/>
+<rect class="scan" x="820" y="815" width="3" height="148" fill="#22c7d6"/>
+<text x="820.0" y="982.0" font-size="12" class="l" style="animation-delay:9.60s" xml:space="preserve"><tspan fill="#6b7a90">NDVI · 10 m/px  </tspan><tspan fill="#3b6ea5">■ </tspan><tspan fill="#d0d7e2">water </tspan><tspan fill="#8d6e3f">■ </tspan><tspan fill="#d0d7e2">soil </tspan><tspan fill="#c9b458">■ </tspan><tspan fill="#d0d7e2">sparse </tspan><tspan fill="#2e7d32">■ </tspan><tspan fill="#d0d7e2">dense</tspan></text>
+<rect y="1004" width="1200" height="26" fill="#2ed573"/>
+<text x="10.0" y="1022.0" font-size="13" font-weight="bold" xml:space="preserve"><tspan fill="#0b0f17">[kairavi] 0:neofetch  1:nmap*  2:redops  3:grc  4:git  5:geo</tspan></text>
+<text x="1190.0" y="1022.0" font-size="13" text-anchor="end" xml:space="preserve"><tspan fill="#0b0f17">&quot;kali&quot; · the quieter you become, the more you are able to hear</tspan></text>
 </svg>
